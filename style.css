@@ -1,0 +1,101 @@
+:root {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F5F4F0;
+}
+
+#page {
+  margin: auto;
+  text-align: center;
+  width: 1120px;
+}
+
+#headline {
+  text-align: left;
+  color: #E1624F;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h1, h2, h3 {
+  text-align: left;
+}
+
+img {
+  width: 1120px;
+  border-radius: 28px;
+}
+
+#title h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#description p {
+  font-size: 16px;
+  font-style: italic;
+}
+
+#content #divider {
+  width: 1120px;
+  height: 1px;  
+  background-color: #d9d9d9;
+}
+
+#title-list h2 {
+  font-size: 32px;
+}
+
+#title-list h2 + p {
+  font-size: 16px;
+  text-align: left;
+}
+
+#list img {
+  height: 350px;
+  object-fit: cover;
+}
+
+#list img + h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#list h3 + p {
+  font-style: normal;
+  font-size: 16px;
+  text-align: left;
+}
+
+#list p + p {
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+} 
+
+#historia {
+  color: #0C51A7;
+}
+
+#casais {
+  color: #591B98;
+}
+
+#familia {
+  color: #E5245E;
+}
+
+#orcamento {
+  color: #E95E10;
+}
+
+#description-footer {
+  font-size: 16px;
+  font-style: italic;
+}
