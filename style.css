@@ -2,13 +2,17 @@
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
-}
-
-body {
   background-color: #F5F4F0;
 }
 
+main {
+  margin: auto;
+  width: 1280px;
+}
+
 #page {
+  box-sizing: content-box;
+  padding: 40px;
   margin: auto;
   text-align: center;
   width: 1120px;
@@ -23,10 +27,11 @@ body {
 }
 
 h1, h2, h3 {
+  line-height: 0.2;
   text-align: left;
 }
 
-img {
+#page img {
   width: 1120px;
   border-radius: 28px;
 }
@@ -41,14 +46,23 @@ img {
   font-style: italic;
 }
 
+#description img {
+  margin-top: 40px;
+}
+
 #content #divider {
   width: 1120px;
   height: 1px;  
   background-color: #d9d9d9;
+  margin-top: 40px;
 }
 
 #title-list h2 {
   font-size: 32px;
+}
+
+#title-list #headline {
+  margin-top: 64px;
 }
 
 #title-list h2 + p {
@@ -59,6 +73,8 @@ img {
 #list img {
   height: 350px;
   object-fit: cover;
+  margin-top: 48px;
+  margin-bottom: 10px;
 }
 
 #list img + h3 {
@@ -95,7 +111,23 @@ img {
   color: #E95E10;
 }
 
+#list + #divider {
+  margin-bottom: 40px;
+}
+
 #description-footer {
   font-size: 16px;
   font-style: italic;
+}
+
+footer > img {
+  vertical-align: middle;
+  margin: 4px;
+}
+
+footer {
+  text-align: center;
+  color: #333333;
+  font-family: 'Alice', serif;
+  font-size: 16px;
 }
